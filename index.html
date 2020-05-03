@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+        
+    <title>CSS Grids</title>
+</head>
+<body>
+
+    <header id="theHeader">
+      <h1>Tutorial for CSS Grids</h1>
+
+      <input type="number" name="totalNumber" placeholder="Enter number of images" onchange="addElement(this.value)">
+    </header>
+
+    <section id="one" class="basic-grid"></section>
+
+    <section class="inputContainer"><input type="number" name="photoNumber" placeholder="Number of Random Photos" onchange="addPhoto(this.value)"></section>
+
+    <section id="photo" class="photo-grid-container">
+    </section>
+
+    <section id="photoAnimation" class="photoAnimation">
+      <div class="card">1</div>
+      <div class="card">2</div>
+      <div class="card">3</div>
+      <div class="card">4</div>
+      <div class="card">5</div>
+      <div class="card">6</div>
+      <div class="card">7</div>
+      <div class="card">8</div>
+      <div class="card">9</div>
+      <div class="card">10</div>
+      <div class="card">11</div>
+      <div class="card">12</div>
+      <div class="card">main</div>
+    </section>
+
+    <footer id="theFooter">
+        <h2>Some cool text in the footer.</h2>
+    </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
